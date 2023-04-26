@@ -1,0 +1,55 @@
+html body {
+    min-width: 300px;
+    color: black;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 24px;
+    
+}
+body{
+    margin: 8px;
+    display:block;
+    
+}
+
+#navbar{
+    position: fixed;
+    min-width: 300px;
+    top: 0px;
+    left: 0px;
+    width: 150x;
+    height: 100%;
+    border-right: solid;
+    border-color: rgb(132, 141, 133);
+    display:block;
+
+}
+.nav-link{
+    color :black;
+    text-decoration: none;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+    display: block;
+}
+header{
+    font-weight: 600;
+    font-size: 0.6cm;
+    color: rgb(36, 35, 35);
+}
+code{
+    background-color: rgb(225, 225, 230);
+     width: 500px;
+    display: flex;
+    justify-content: space-between;
+     color: black;
+}
+ @media (min-width: 350px){
+    code {
+        width:500px
+    }
+  }
